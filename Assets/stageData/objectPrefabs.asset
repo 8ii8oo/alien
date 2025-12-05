@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294451e1e091232438b382401ef3caa6, type: 3}
+  m_Name: objectPrefabs
+  m_EditorClassIdentifier: 
+  backgroundPrefab: {fileID: 1202138696352347869, guid: 07257b59b2a2c4143a743c8c02ea782a, type: 3}
+  tilePrefabs:
+  - {fileID: 1202138696352347869, guid: 07257b59b2a2c4143a743c8c02ea782a, type: 3}
+  - {fileID: 3078516694681468481, guid: 7b48e799641d07f46b4c7374e29d4547, type: 3}
+  - {fileID: 4609171611367612592, guid: ff81918df132cf34599448c3d8764d9a, type: 3}
+  - {fileID: 5904717097841314436, guid: 55d8dbb5dea009849a7cfbd8791336de, type: 3}
+  objectPrefabs:
+  - {fileID: 1202138696352347869, guid: 07257b59b2a2c4143a743c8c02ea782a, type: 3}
+  - {fileID: 3078516694681468481, guid: 7b48e799641d07f46b4c7374e29d4547, type: 3}
+  - {fileID: 4609171611367612592, guid: ff81918df132cf34599448c3d8764d9a, type: 3}
+  - {fileID: 5904717097841314436, guid: 55d8dbb5dea009849a7cfbd8791336de, type: 3}
+  playerJumpPower: 15
+  playerSuperJumpPower: 30
+  playerSprite: {fileID: 0}
+  jumpPhaseDuration: 40
+  transitionDuration: 10
+  postTransitionHold: 10
+  spawnDistanceAhead: 20
